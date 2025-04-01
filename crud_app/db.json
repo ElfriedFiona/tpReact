@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "nom": "Client1",
+      "adresse": "Adresse 1",
+      "tel": "123456789"
+    },
+    {
+      "id": "2",
+      "nom": "Client2",
+      "adresse": "Adresse 2",
+      "tel": "987654321"
+    },
+    {
+      "nom": "Client3",
+      "adresse": "Adresse 3",
+      "tel": "965821476",
+      "id": "3"
+    },
+    {
+      "id": "bb9b",
+      "nom": "FIONA DITCHO",
+      "adresse": "jardin logbaba",
+      "tel": "692455585"
+    },
+    {
+      "id": "3c95",
+      "nom": "ike",
+      "adresse": "BONABO",
+      "tel": "741180976"
+    }
+  ]
+}
