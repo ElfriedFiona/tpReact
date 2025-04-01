@@ -1,11 +1,11 @@
 // ClientDetails.js
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate,Link } from 'react-router-dom';
+import { useParams, /*useNavigate*/ Link } from 'react-router-dom';
 import axios from 'axios';
 const ClientDetails = () => {
 const { id } = useParams();
 const [client, setClient] = useState({});
-const history = useNavigate();
+// const history = useNavigate();
 useEffect(() => {
 const fetchClient = async () => {
 const response = await axios.get(`http://localhost:3001/clients/${id}`);

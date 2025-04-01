@@ -1,10 +1,10 @@
 // ClientList.js
 import React, { useState, useEffect } from 'react';
-import { Link ,redirect,useNavigate} from 'react-router-dom';
+import { Link ,/*redirect,useNavigate*/} from 'react-router-dom';
 import axios from 'axios';
 const ClientList = () => {
 const [clients, setClients] = useState([]);
-const navigate = useNavigate();
+// const navigate = useNavigate();
 const fetchData = async () => {
 const response = await axios.get('http://localhost:3001/clients');
 setClients(response.data);//chargement du résultat de la requête
